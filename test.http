@@ -3,8 +3,17 @@ GET http://localhost:8000/
 
 ###
 
-GET http://localhost:8000/api/v1/randomnumber?min=6&max=10
+GET http://localhost:8000/api/v1/randomnumber?min=6&max=12
 
 ###
 
-GET http://localhost:8000/api/v1/stringCalculator/:abc34 
+GET http://localhost:8000/api/v1/stringCalculator/SOurav@12
+
+###
+
+GET http://localhost:8000/api/v1/randomPerson
+Content-Type: application/json
+
+{
+  "params":["name","age","email"]
+}

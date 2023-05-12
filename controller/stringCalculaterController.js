@@ -1,4 +1,4 @@
-const stringCalculate = require("../services/stringCalculate");
+const stringCalculate = require("../services/stringCalculaterService");
 
 const stringCalController = async (req, res) => {
   const str = String(req.params.str);

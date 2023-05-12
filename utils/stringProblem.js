@@ -14,4 +14,4 @@ const stringDetails =(str) =>{
   }
   return { letters: letters, numbers: numbers, special: special };
 }
-module.exports = getStringDetails;
+module.exports = stringDetails;
