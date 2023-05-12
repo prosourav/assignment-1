@@ -1,0 +1,10 @@
+
+GET http://localhost:8000/
+
+###
+
+GET http://localhost:8000/api/v1/randomnumber?min=6&max=10
+
+###
+
+GET http://localhost:8000/api/v1/stringCalculator/:abc34 
