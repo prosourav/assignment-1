@@ -1,19 +1,19 @@
 
-GET http://localhost:8000/
+GET http://localhost:4000/
 
 ###
 
-GET http://localhost:8000/api/v1/randomnumber?min=6&max=12
+GET http://localhost:4000/api/v1/random-number?min=5&max=12
 
 ###
 
-GET http://localhost:8000/api/v1/stringCalculator/SOurav@12
+GET http://localhost:4000/api/v1/stringCalculator/@test1 
 
 ###
 
-GET http://localhost:8000/api/v1/randomPerson
+GET http://localhost:4000/api/v1/randomPerson
 Content-Type: application/json
 
 {
-  "params":["name","age","email"]
+  "params":["name","age","email","gender"]
 }
