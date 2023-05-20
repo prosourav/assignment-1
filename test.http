@@ -3,7 +3,7 @@ GET http://localhost:4000/
 
 ###
 
-GET http://localhost:4000/api/v1/random-number?min=5&max=12
+GET http://localhost:4000/api/v1/random-number?min=5&max='5'
 
 ###
 
